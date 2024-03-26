@@ -15,7 +15,7 @@ function fun(){
     const birthday = new Date(val);
 
     dif = (today - birthday)/(1000*24*60*60);
-    dif = Math.ceil(dif);
+    dif = Math.floor(dif);
 
     year = dif/365.25; //average year  = 365.25 days 
     remain = dif%365.25;
