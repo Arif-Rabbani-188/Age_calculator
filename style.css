@@ -3,16 +3,17 @@ input{
     width: 70vmin;
     margin: 2vmin;
     border-radius: 0.5rem;
+    font-size: 2.5vmin;
 }
 #container{
-    height: 70vh;
+    height: 90vh;
     display: flex;
     justify-content:center;
     align-items: center;
 }
 #inputBox{
     box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
-    height: 70vmin;
+    height: 90vmin;
     width: 100vmin;
     background-color:bisque;
     justify-content: center;
@@ -25,7 +26,7 @@ input{
     border-bottom: 0.3vmin solid black;
     box-shadow: none;
 }
-#textbox, #dateOfBirth, #button{
+#textbox, #dateOfBirth, #button, #output{
     align-items: center;
     justify-content: center;
     width: 80vmin;
@@ -33,13 +34,15 @@ input{
 }
 h1{
     text-align: center;
-    font-size:10vmin;
+    font-size:7vmin;
 }
 p{
     font-size: 2.5vmin;
     margin-left: 2vmin;
     margin-top: 2vmin;
+    
 }
 h2{
+    font-size: 3.5vmin;
     text-align: center;
 }
